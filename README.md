@@ -5,7 +5,7 @@ Statistics for Beijing CivilServant
 ```
 统计2018年京考各报考职位报考人数
 原查询网址：http://www.bjrbj.gov.cn/gwyquery/publicQuery/gzwbkrsssquery
-但结果无法进行统计、筛选，因此，做个小脚本，爬取所有的职位代码报考情况，并将结果保存为CSV文件，以进行分析，方便针对性报考
+网页中含有表单，需要通过提交POST请求的方式获取职位数据
 ```
 
 ```
